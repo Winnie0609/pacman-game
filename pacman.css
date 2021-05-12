@@ -98,7 +98,7 @@ h1{
 .pac-dot {
     background-color: #C2C2C2;
     border-radius: 10px;
-    border: solid 4.5px #fff;
+    border: solid 6px #fff;
     box-sizing: border-box;
 }
 
@@ -107,15 +107,12 @@ h1{
     width: 3px;
     height: 3px;
     border-radius: 10px;
-    border: solid 2px #fff;
+    border: solid 4px #fff;
     box-sizing: border-box;
 }
 
 .pacman {
-    background-color: #F8EE01;
-    border: solid 1.5px #fff;
-    border-radius: 5px;
-    box-sizing: border-box;
+    background-image: url("./icon/pacman.png");
 }
 
 .ghost-liar {
@@ -123,36 +120,39 @@ h1{
 }
 
 /* ghost */
+.blinky,
+.pinky,
+.clyde,
+.inky,
+.pacman,
+.scared-ghost{
+    background-color: #fff;
+ 
+    background-size: 15px;
+    background-repeat: no-repeat;
+    border-radius: 0px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+}
+
 .blinky {
-    background-color: #FF4C4C;
-    border: solid 2px #fff;
-    border-radius: 5px;
-    border: none;
+    background-image: url("./icon/blinky.png");
 }
 
 .pinky {
-    background-color: #FF82AC;
-    border-radius: 5px;
-    border: none;
+    background-image: url("./icon/pinky.png");
 }
 
 .inky {
-    background-color: #D7AAF9;
-    border-radius: 5px;
-    border: none;
+    background-image: url("./icon/inkly.png");
 }
 
 .clyde {
-    background-color: #9BD3F6;
-    border-radius: 5px;
-    border: none;
+    background-image: url("./icon/clyde.png");
 }
 
 .scared-ghost {
-    background-color: #FFB37D;
-    border-radius: 5px;
-    border: solid 3px #fff;
-    border: none;
+    background-image: url("./icon/scared.png");
 }
 
 /* game over */
@@ -180,25 +180,3 @@ h1{
     color: rgba(248, 238, 1, 1);
     padding: 10px 40px ;
 }
-
-/* .restart{
-    display: block;
-    position: absolute;
-    top: 65%;
-    left: 40%;
-    padding: 10px 30px;
-    background-color: #1C1F3E;
-    color: #fff;
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 18px;
-    outline: none;
-    border: solid 2px #1C1F3E;
-    
-}
-
-.restart:hover{
-    background-color: transparent;
-    border: solid 2px #1C1F3E;
-    color: #1C1F3E;
-} */
