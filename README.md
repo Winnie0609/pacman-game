@@ -2,7 +2,7 @@
 A Pacman Game built with Vanilla JavaScript.
 
 ## Demo
-[Blog]()  
+[Blog](https://winnie0609.github.io/2021/03/26/0326-pacman-game/)  
 [Live Demo](https://winnie0609.github.io/pacman-game/pacman.html)  
   
 ![](https://i.imgur.com/aUPLfkR.gif)
